@@ -68,6 +68,7 @@ body section #main-container {
   display: flex;
   flex-direction: column;
   margin-left: 15em;
+  margin-right: 15em;
   border: 2px solid red;
 }
 body section #main-container .stripe-container {
@@ -96,8 +97,9 @@ body section #main-container .stripe-container .text-stripe .bottom-text {
 }
 body section #block-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-left: 11em;
+  margin-right: 11em;
 }
 body section #block-container .block {
   max-width: 33%;
@@ -112,6 +114,19 @@ body section #block-container .block img {
 }
 body section #block-container .block p {
   margin-right: 9.5em;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+body footer #footerIcons img {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+body footer p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=indexStyle.css.map */

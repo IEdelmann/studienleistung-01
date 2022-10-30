@@ -77,6 +77,7 @@ body {
       display: flex;
       flex-direction: column;
       margin-left: 15em;
+      margin-right: 15em;
       border: 2px solid red;
 
       .stripe-container {
@@ -112,8 +113,9 @@ body {
 
     #block-container {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
       margin-left: 11em;
+      margin-right: 11em;
 
       .block {
         max-width: 33%;
@@ -131,6 +133,24 @@ body {
           margin-right: 9.5em;
         }
       }
+    }
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+
+    #footerIcons {
+      img {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+      }
+    }
+
+    p {
+      margin: 0;
     }
   }
 }
