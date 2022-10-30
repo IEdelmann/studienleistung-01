@@ -123,6 +123,7 @@ body section #main-container .stripe-container {
 }
 body section #main-container .stripe-container .number {
   font-size: 140px;
+  width: 140px;
   margin: 0;
 }
 body section #main-container .stripe-container .text-stripe {
