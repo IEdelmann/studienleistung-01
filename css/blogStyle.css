@@ -37,6 +37,7 @@ body header nav #linksInteractive ul li {
 }
 body header nav #linksInteractive ul #nav-marker {
   text-decoration: underline;
+  font-weight: bold;
 }
 body header nav #linksInteractive #navIcons {
   margin-left: 12.5px;
@@ -72,9 +73,12 @@ body section .blog-row .blog-box .text-date {
   font-weight: bold;
 }
 body section .blog-row .blog-box .text-head {
-  margin-top: 0;
+  margin-top: -0.5em;
   font-size: 20px;
   font-weight: bold;
+}
+body section .blog-row .blog-box .text-paragraph {
+  margin-top: -0.5em;
 }
 body footer {
   display: flex;

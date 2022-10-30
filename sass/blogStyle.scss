@@ -33,6 +33,7 @@ body {
 
           #nav-marker {
             text-decoration: underline;
+            font-weight: bold;
           }
         }
 
@@ -77,9 +78,13 @@ body {
         }
 
         .text-head {
-          margin-top: 0;
+          margin-top: -0.5em;
           font-size: 20px;
           font-weight: bold;
+        }
+
+        .text-paragraph {
+          margin-top: -0.5em;
         }
       }
 
