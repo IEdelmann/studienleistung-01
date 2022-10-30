@@ -37,9 +37,10 @@ body {
         }
 
         #navIcons {
+          margin-left: 12.5px;
           img {
-            margin-left: 15px;
-            padding: 7.5px;
+            margin-left: 7.5px;
+            margin-right: 7.5px;
           }
         }
       }
@@ -112,10 +113,10 @@ body {
       margin-right: 11em;
 
       .block {
-        max-width: 33%;
-        padding: 0.5em;
+        width: 33%;
+        padding: 2em;
         margin: 0.5em;
-        background-color: #DFDFDF;
+        background-color: #BFBFBF;
 
         img {
           display: block;
@@ -124,7 +125,7 @@ body {
         }
 
         p {
-          margin-right: 9.5em;
+          margin-right: 5.5em;
         }
       }
     }

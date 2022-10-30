@@ -38,9 +38,12 @@ body header nav #linksInteractive ul li {
 body header nav #linksInteractive ul #nav-marker {
   text-decoration: underline;
 }
+body header nav #linksInteractive #navIcons {
+  margin-left: 12.5px;
+}
 body header nav #linksInteractive #navIcons img {
-  margin-left: 15px;
-  padding: 7.5px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
 }
 body header #intro {
   display: flex;
@@ -97,10 +100,10 @@ body section #block-container {
   margin-right: 11em;
 }
 body section #block-container .block {
-  max-width: 33%;
-  padding: 0.5em;
+  width: 33%;
+  padding: 2em;
   margin: 0.5em;
-  background-color: #DFDFDF;
+  background-color: #BFBFBF;
 }
 body section #block-container .block img {
   display: block;
@@ -108,7 +111,7 @@ body section #block-container .block img {
   margin-right: auto;
 }
 body section #block-container .block p {
-  margin-right: 9.5em;
+  margin-right: 5.5em;
 }
 body footer {
   display: flex;
