@@ -1,4 +1,5 @@
 @import "fontStyle";
+@import "indexResponsive";
 
 body {
   font-family: "Poppins Light";
@@ -125,7 +126,7 @@ body {
         }
 
         p {
-          margin-right: 5.5em;
+          margin-inside: 1em;
         }
       }
     }

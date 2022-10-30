@@ -6,6 +6,32 @@
   font-family: "Poppins Medium";
   src: url("../fonts/Poppins-Medium.ttf");
 }
+@media only screen and (max-width: 1100px) {
+  body header {
+    background-color: orange !important;
+  }
+  body header #intro img {
+    display: none;
+  }
+  body header #intro #headline {
+    margin-bottom: -10px;
+  }
+  body #main-container {
+    margin-left: 3.5em !important;
+    margin-right: auto !important;
+  }
+  body #block-container {
+    flex-direction: column !important;
+  }
+  body #block-container .block {
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 750px) {
+  body header {
+    background-color: green !important;
+  }
+}
 body {
   font-family: "Poppins Light";
   font-weight: 300;
@@ -111,7 +137,7 @@ body section #block-container .block img {
   margin-right: auto;
 }
 body section #block-container .block p {
-  margin-right: 5.5em;
+  margin-inside: 1em;
 }
 body footer {
   display: flex;
