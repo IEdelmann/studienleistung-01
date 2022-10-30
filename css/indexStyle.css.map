@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"indexStyle.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/fontStyle.scss","../sass/indexStyle.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;AAGF;EACE;EACA;;ACLF;EACE;EACA","file":"indexStyle.css"}
