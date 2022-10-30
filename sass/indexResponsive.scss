@@ -36,5 +36,30 @@
     header {
       background-color: green !important;
     }
+
+    nav {
+
+      #hamburger-button {
+        display: block !important;
+
+      }
+      ul {
+        display: none;
+      }
+
+      #navIcons {
+        display: none;
+      }
+    }
+
+    #main-container {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    #block-container {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
   }
 }

@@ -31,6 +31,23 @@
   body header {
     background-color: green !important;
   }
+  body nav #hamburger-button {
+    display: block !important;
+  }
+  body nav ul {
+    display: none;
+  }
+  body nav #navIcons {
+    display: none;
+  }
+  body #main-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  body #block-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
 body {
   font-family: "Poppins Light";
@@ -70,6 +87,9 @@ body header nav #linksInteractive #navIcons {
 body header nav #linksInteractive #navIcons img {
   margin-left: 7.5px;
   margin-right: 7.5px;
+}
+body header nav #hamburger-button {
+  display: none;
 }
 body header #intro {
   display: flex;
