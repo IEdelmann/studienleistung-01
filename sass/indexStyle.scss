@@ -71,4 +71,66 @@ body {
       }
     }
   }
+
+  section {
+    #main-container {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15em;
+      border: 2px solid red;
+
+      .stripe-container {
+        display: flex;
+        border: 1px solid yellow;
+
+        .number {
+          font-size: 140px;
+          margin: 0;
+        }
+
+        .text-stripe {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          margin-left: 1em;
+          height: 10em;
+
+          background-color: darkolivegreen;
+          border: solid 1px lawngreen;
+
+          .top-text {
+            font-size: 37px;
+            padding-bottom: 0.5em;
+          }
+
+          .bottom-text {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+
+    #block-container {
+      display: flex;
+      justify-content: space-evenly;
+      margin-left: 11em;
+
+      .block {
+        max-width: 33%;
+        padding: 0.5em;
+        margin: 0.5em;
+        background-color: grey;
+
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        p {
+          margin-right: 9.5em;
+        }
+      }
+    }
+  }
 }
