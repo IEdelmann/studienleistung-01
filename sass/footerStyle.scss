@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+
+  #footerIcons {
+    img {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}
