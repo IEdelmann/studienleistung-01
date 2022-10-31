@@ -63,11 +63,23 @@ body {
       margin: 3em;
       display: flex;
 
+      img {
+        max-width: 40em;
+      }
+
       .contact-text-box {
         display: flex;
         flex-direction: column;
         max-width: 35em;
         margin: 2em;
+
+        h3 {
+          font-size: $font-size-header;
+        }
+
+        p {
+          font-size: $font-size-standard;
+        }
       }
     }
   }

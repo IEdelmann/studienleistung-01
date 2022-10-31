@@ -88,7 +88,7 @@ body {
         display: flex;
 
         .number {
-          font-size: 140px;
+          font-size: $font-size-numbers;
           width: 140px;
           margin: 0;
         }
@@ -101,12 +101,12 @@ body {
           height: 10em;
 
           .top-text {
-            font-size: 37px;
+            font-size: $font-size-header;
             padding-bottom: 0.5em;
           }
 
           .bottom-text {
-            font-size: 24px;
+            font-size: $font-size-standard;
           }
         }
       }
