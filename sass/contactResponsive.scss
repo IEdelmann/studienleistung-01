@@ -1,7 +1,6 @@
 @media only screen and (max-width: 1100px) {
   body {
 
-    //background-color: orange !important;
     header {
       background-color: orange !important;
     }
@@ -25,7 +24,51 @@
         p {
           margin-top: 0.5em;
         }
+      }
+    }
 
+    #block-container {
+      flex-direction: column;
+
+      .block {
+        width: auto !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+
+    header {
+      background-color: green !important;
+
+      nav {
+        #hamburger-button {
+          display: block !important;
+        }
+
+        ul {
+          display: none;
+        }
+
+        #navIcons {
+          display: none;
+        }
+      }
+    }
+
+    .contact-main-row {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    #block-container {
+      margin-left: auto !important;
+      margin-right: auto !important;
+
+      .block {
+        width: auto !important;
       }
     }
   }

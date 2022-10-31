@@ -25,6 +25,37 @@
   body #contact-main .contact-text-box p {
     margin-top: 0.5em;
   }
+  body #block-container {
+    flex-direction: column;
+  }
+  body #block-container .block {
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 750px) {
+  body header {
+    background-color: green !important;
+  }
+  body header nav #hamburger-button {
+    display: block !important;
+  }
+  body header nav ul {
+    display: none;
+  }
+  body header nav #navIcons {
+    display: none;
+  }
+  body .contact-main-row {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  body #block-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  body #block-container .block {
+    width: auto !important;
+  }
 }
 body {
   font-family: "Poppins Light";
