@@ -11,6 +11,18 @@ body {
   font-weight: 300;
   margin: 1em;
 }
+@font-face {
+  body {
+    font-family: "Poppins Light";
+    src: url("../fonts/Poppins-Light.ttf");
+  }
+}
+@font-face {
+  body {
+    font-family: "Poppins Medium";
+    src: url("../fonts/Poppins-Medium.ttf");
+  }
+}
 body header {
   height: auto;
   padding: 1.5em;
@@ -84,7 +96,7 @@ body footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 body footer #footerIcons img {
   margin-left: 0.5em;

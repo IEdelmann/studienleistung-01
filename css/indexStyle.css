@@ -80,6 +80,7 @@ body header nav #linksInteractive ul li {
 }
 body header nav #linksInteractive ul #nav-marker {
   text-decoration: underline;
+  font-weight: bold;
 }
 body header nav #linksInteractive #navIcons {
   margin-left: 12.5px;
