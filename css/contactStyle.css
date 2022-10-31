@@ -49,6 +49,21 @@ body header nav #linksInteractive #navIcons img {
 body header nav #hamburger-button {
   display: none;
 }
+body #contact-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #contact-main .contact-main-row {
+  margin: 3em;
+  display: flex;
+}
+body #contact-main .contact-main-row .contact-text-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 35em;
+  margin: 2em;
+}
 body footer {
   display: flex;
   flex-direction: column;

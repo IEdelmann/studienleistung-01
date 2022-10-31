@@ -53,6 +53,25 @@ body {
     }
   }
 
+  #contact-main {
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+
+    .contact-main-row {
+      margin: 3em;
+      display: flex;
+
+      .contact-text-box {
+        display: flex;
+        flex-direction: column;
+        max-width: 35em;
+        margin: 2em;
+      }
+    }
+  }
+
   footer {
     display: flex;
     flex-direction: column;
