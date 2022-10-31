@@ -105,5 +105,8 @@ body footer #footerIcons img {
 body footer p {
   margin: 0;
 }
+body footer {
+  margin-top: 50px !important;
+}
 
 /*# sourceMappingURL=blogStyle.css.map */
