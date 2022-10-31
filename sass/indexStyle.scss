@@ -6,52 +6,9 @@ body {
   font-weight: 300;
   margin: 1em;
 
+  @import "basicHeaderStyle";
+
   header {
-    height: auto;
-    padding: 1.5em;
-    display: flex;
-    flex-direction: column;
-    font-size: $font-size-nav-header;
-    background-color: $happy-gray;
-
-    nav {
-      height: 3em;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      #linksInteractive {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-
-        ul {
-          li {
-            display: inline-block;
-            list-style: none;
-            margin: 5px;
-          }
-
-          #nav-marker {
-            text-decoration: underline;
-            font-weight: bold;
-          }
-        }
-
-        #navIcons {
-          margin-left: 12.5px;
-          img {
-            margin-left: 7.5px;
-            margin-right: 7.5px;
-          }
-        }
-      }
-
-      #hamburger-button {
-        display: none;
-      }
-    }
-
     #intro {
       display: flex;
       justify-content: space-between;
@@ -71,6 +28,7 @@ body {
         #headline {
           font-size: 20px;
         }
+
         p {
           font-size: 37px;
         }

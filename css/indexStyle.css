@@ -54,6 +54,18 @@ body {
   font-weight: 300;
   margin: 1em;
 }
+@font-face {
+  body {
+    font-family: "Poppins Light";
+    src: url("../fonts/Poppins-Light.ttf");
+  }
+}
+@font-face {
+  body {
+    font-family: "Poppins Medium";
+    src: url("../fonts/Poppins-Medium.ttf");
+  }
+}
 body header {
   height: auto;
   padding: 1.5em;
