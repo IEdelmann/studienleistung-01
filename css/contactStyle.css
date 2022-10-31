@@ -6,6 +6,26 @@
   font-family: "Poppins Medium";
   src: url("../fonts/Poppins-Medium.ttf");
 }
+@media only screen and (max-width: 1100px) {
+  body header {
+    background-color: orange !important;
+  }
+  body #contact-main {
+    margin-bottom: 6em;
+  }
+  body #contact-main .contact-main-row {
+    height: 10em;
+  }
+  body #contact-main img {
+    display: none;
+  }
+  body #contact-main .contact-text-box h3 {
+    margin: 0;
+  }
+  body #contact-main .contact-text-box p {
+    margin-top: 0.5em;
+  }
+}
 body {
   font-family: "Poppins Light";
   font-weight: 300;
