@@ -5,12 +5,17 @@
       background-color: orange !important;
 
       #intro {
-        img {
+
+        #picture-container {
           display: none;
         }
 
         #headline {
           margin-bottom: -10px;
+        }
+
+        #header-text {
+          max-width: 100% !important;
         }
       }
     }

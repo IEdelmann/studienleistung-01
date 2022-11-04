@@ -10,11 +10,14 @@
   body header {
     background-color: orange !important;
   }
-  body header #intro img {
+  body header #intro #picture-container {
     display: none;
   }
   body header #intro #headline {
     margin-bottom: -10px;
+  }
+  body header #intro #header-text {
+    max-width: 100% !important;
   }
   body #main-container {
     margin-left: 3.5em !important;
@@ -108,10 +111,14 @@ body header #intro {
   display: flex;
   justify-content: space-between;
 }
-body header #intro img {
-  max-width: 50%;
+body header #intro #picture-container {
+  max-width: 100%;
+}
+body header #intro #picture-container img {
+  max-width: 100%;
 }
 body header #intro #header-text {
+  max-width: 50%;
   display: flex;
   margin-left: 2em;
   margin-right: 2em;
