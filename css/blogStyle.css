@@ -47,6 +47,13 @@ body header nav #linksInteractive ul li {
   list-style: none;
   margin: 5px;
 }
+body header nav #linksInteractive ul li a {
+  text-decoration: none;
+  color: black;
+}
+body header nav #linksInteractive ul li a:hover {
+  font-weight: bold;
+}
 body header nav #linksInteractive ul #nav-marker {
   text-decoration: underline;
   font-weight: bold;

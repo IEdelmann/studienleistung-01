@@ -24,6 +24,15 @@ header {
           display: inline-block;
           list-style: none;
           margin: 5px;
+
+          a {
+            text-decoration: none;
+            color: black;
+          }
+
+          a:hover {
+            font-weight: bold;
+          }
         }
 
         #nav-marker {
