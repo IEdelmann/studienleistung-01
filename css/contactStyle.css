@@ -132,6 +132,7 @@ body #contact-main .contact-main-row .contact-text-box {
 }
 body #contact-main .contact-main-row .contact-text-box h3 {
   font-size: 37px;
+  margin-bottom: -0.2em;
 }
 body #contact-main .contact-main-row .contact-text-box p {
   font-size: 24px;
