@@ -7,9 +7,6 @@
   src: url("../fonts/Poppins-Medium.ttf");
 }
 @media only screen and (max-width: 1100px) {
-  body header {
-    background-color: orange !important;
-  }
   body #contact-main {
     margin-bottom: 6em;
   }
@@ -33,9 +30,6 @@
   }
 }
 @media only screen and (max-width: 750px) {
-  body header {
-    background-color: green !important;
-  }
   body header nav #hamburger-button {
     display: block !important;
   }
@@ -129,6 +123,7 @@ body header nav #hamburger-button {
   display: none;
 }
 body #contact-main {
+  font-family: "Poppins Medium";
   display: flex;
   flex-direction: column;
   align-items: center;
