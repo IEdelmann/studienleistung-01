@@ -88,8 +88,8 @@ body header nav {
   justify-content: space-between;
   align-items: center;
 }
-body header nav h3 {
-  font-family: "Poppins Medium";
+body header nav h1 {
+  font-size: 1.7em;
 }
 body header nav #linksInteractive {
   display: flex;
@@ -177,16 +177,16 @@ body footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 59px;
 }
 body footer #footerIcons img {
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  height: 16px;
-  width: 16px;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+  height: 24px;
+  width: 24px;
 }
 body footer p {
-  margin: 0;
+  margin: 0.2em 0 0 0;
 }
 
 /*# sourceMappingURL=contactStyle.css.map */
