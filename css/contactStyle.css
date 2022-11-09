@@ -88,6 +88,9 @@ body header nav {
   justify-content: space-between;
   align-items: center;
 }
+body header nav h3 {
+  font-family: "Poppins Medium";
+}
 body header nav #linksInteractive {
   display: flex;
   justify-content: flex-end;

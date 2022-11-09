@@ -83,6 +83,9 @@ body header nav {
   justify-content: space-between;
   align-items: center;
 }
+body header nav h1 {
+  font-size: 1.7em;
+}
 body header nav #linksInteractive {
   display: flex;
   justify-content: flex-end;
@@ -125,15 +128,15 @@ body header #intro {
   justify-content: space-between;
 }
 body header #intro #picture-container {
-  max-width: 100%;
+  width: 50%;
 }
 body header #intro #picture-container img {
   max-width: 100%;
 }
 body header #intro #header-text {
-  max-width: 50%;
+  width: 45%;
   display: flex;
-  margin-left: 2em;
+  margin-left: 3em;
   margin-right: 2em;
   flex-direction: column;
   align-items: flex-start;
@@ -141,11 +144,14 @@ body header #intro #header-text {
 }
 body header #intro #header-text #headline {
   font-size: 20px;
+  margin-bottom: 0;
 }
 body header #intro #header-text p {
+  font-family: "Poppins Medium";
   font-size: 37px;
 }
 body section #main-container {
+  font-family: "Poppins Medium";
   display: flex;
   flex-direction: column;
   margin-left: 15em;
