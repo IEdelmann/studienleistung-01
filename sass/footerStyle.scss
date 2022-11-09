@@ -2,18 +2,25 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 70px;
+  // -11 px: Youtube Logo beim grauen Kasten
+  // -8 px: Snapchat Logo beim grauen Kasten
+  // -3 px: Abstand zwischen Snapchat und Youtube Logo
+  // Abstand bei margin-top: 0 -> 11px vom Youtube-Logo bis grauen Kasten
+  // D. h. 70px - 11px = 59px
+  margin-top: 59px;
+  //margin-top: -8px;
+  //margin-top: 0;
 
   #footerIcons {
     img {
-      margin-left: 0.5em;
-      margin-right: 0.5em;
-      height: 16px;
-      width: 16px;
+      margin-left: 1.2em;
+      margin-right: 1.2em;
+      height: 24px;
+      width: 24px;
     }
   }
 
   p {
-    margin: 0;
+    margin: 0.2em 0 0 0;
   }
 }
